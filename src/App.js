@@ -1,13 +1,17 @@
-
-import './App.css';
-import React from 'react';
+import "./App.css";
+import React from "react";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Card from "./components/Card";
 
 function App() {
   return (
-    <Navbar />
+    <div>
+      <Navbar />
+      <Hero />
+      <Card />
+    </div>
   );
 }
 
 export default App;
-
